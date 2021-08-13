@@ -1,0 +1,14 @@
+name: OWC
+main: me.itskekoff.auth.OWC
+version: 1.0
+commands:
+   owc:
+      description: Использование команды /owc <КЛЮЧ>
+      usage: /<command>
+   owc-reload:
+      description: Перезагрузка конфига
+      usage: /<command>
+permissions:
+    owc.reload:
+        description: Право на перезагрузку конфига
+        default: op
